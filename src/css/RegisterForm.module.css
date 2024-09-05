@@ -1,0 +1,31 @@
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formControl {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btnPrimary {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnPrimary:hover {
+  background-color: #0056b3;
+}
+
+.textDanger {
+  color: red;
+  font-size: 12px;
+}

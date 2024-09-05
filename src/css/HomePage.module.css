@@ -1,0 +1,65 @@
+.homepageContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  flex-direction: column; /* Sửa lại để hiển thị taskbar và content theo chiều dọc */
+}
+
+.taskbar {
+  position: relative;
+  width: 100%;
+}
+
+.dropdownButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdownButton:hover {
+  background-color: #0056b3;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdownItem {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdownItem:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.categoryIcon {
+  margin-right: 10px;
+}
+.logo {
+  width: 150px; /* Bạn có thể điều chỉnh kích thước logo tại đây */
+  height: auto;
+}
+
+
